@@ -6,7 +6,7 @@ def add_fun():
         num = int(input("enter integer: "))
         if num < 0:break
         sum += num
-        # num += 1
+        num += 1
     return sum
 if __name__ == '__main__':
     # num_1 = int(input("Enter an 1st_integer: "))
